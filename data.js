@@ -512,6 +512,497 @@ const LAWS = [
       "Förbered inköp och överlämning av CBAM-certifikat i definitiva fasen.",
       "Inför rutin för dokumentation och verifiering av utsläppsdata."
     ]
+  },
+  {
+    id: "miljoprovningsforordningen",
+    title: "Miljöprövningsförordningen",
+    sfs: "SFS 2013:251",
+    category: "Tillstånd & anmälan",
+    authority: "Länsstyrelsen / kommunens miljönämnd",
+    updated: "Senast ändrad 2024",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/miljoprovningsforordning-2013251_sfs-2013-251/",
+    summary:
+      "Anger vilka verksamheter som är tillstånds- eller anmälningspliktiga och delar in dem i A-, B- och C-verksamheter. Avgör vilken prövningsnivå och vilken myndighet som gäller för din verksamhet.",
+    appliesTo:
+      "Verksamheter vars bransch finns uppräknad i förordningen (t.ex. tillverkning, livsmedel, lantbruk, avfall, energi, ytbehandling).",
+    keywords: ["miljöprövning", "A-verksamhet", "B-verksamhet", "C-verksamhet", "verksamhetskod", "tillståndsplikt", "anmälningsplikt"],
+    checklist: [
+      "Slå upp din bransch i förordningen och identifiera rätt verksamhetskod.",
+      "Fastställ prövningsnivå: A (mark- och miljödomstol), B (länsstyrelsen) eller C (anmälan till kommunen).",
+      "Sök tillstånd (A/B) eller lämna anmälan (C) innan verksamheten startar eller ändras väsentligt.",
+      "Kontrollera om en planerad ändring är anmälnings- eller tillståndspliktig.",
+      "Dokumentera vilken verksamhetskod och prövningsnivå som gäller i egenkontrollen."
+    ]
+  },
+  {
+    id: "miljorapport",
+    title: "Miljörapport för tillståndspliktig verksamhet",
+    sfs: "NFS 2016:8 (MB 26 kap.)",
+    category: "Egenkontroll",
+    authority: "Naturvårdsverket / Länsstyrelsen",
+    updated: "Senast ändrad 2023",
+    link: "https://www.naturvardsverket.se/vagledning-och-stod/miljorapport/",
+    summary:
+      "Tillståndspliktiga miljöfarliga verksamheter (A och B) ska varje år lämna en miljörapport som redovisar hur villkoren i tillståndet följts. Rapporten lämnas digitalt i Svenska Miljörapporteringsportalen (SMP).",
+    appliesTo: "A- och B-verksamheter med tillstånd enligt miljöbalken.",
+    keywords: ["miljörapport", "smp", "villkor", "årlig rapportering", "tillstånd", "utsläpp"],
+    checklist: [
+      "Säkerställ att verksamheten är registrerad i Svenska Miljörapporteringsportalen (SMP).",
+      "Sammanställ grunddel, textdel och utsläppsdeklaration enligt NFS 2016:8.",
+      "Redovisa hur varje tillståndsvillkor har följts under året.",
+      "Rapportera utsläpp till luft och vatten samt avfallsmängder.",
+      "Lämna miljörapporten senast den 31 mars för föregående kalenderår.",
+      "Låt behörig person granska och signera rapporten."
+    ]
+  },
+  {
+    id: "miljosanktionsavgifter",
+    title: "Förordning om miljösanktionsavgifter",
+    sfs: "SFS 2012:259",
+    category: "Tillstånd & anmälan",
+    authority: "Tillsynsmyndigheten (kommun/länsstyrelse)",
+    updated: "Senast ändrad 2024",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2012259-om-miljosanktionsavgifter_sfs-2012-259/",
+    summary:
+      "Anger fasta avgifter som tas ut när vissa krav i miljölagstiftningen inte följs, t.ex. utebliven anmälan, försenad köldmedierapport eller saknat tillstånd. Avgiften tas ut även utan uppsåt eller oaktsamhet.",
+    appliesTo: "Alla verksamhetsutövare som omfattas av anmälnings-, tillstånds- eller rapporteringskrav.",
+    keywords: ["miljösanktionsavgift", "sanktion", "förseelse", "anmälan", "köldmedier", "avgift"],
+    checklist: [
+      "Kartlägg vilka anmälningar, tillstånd och rapporter verksamheten måste lämna.",
+      "Inför rutiner och bevakning av tidsfrister (t.ex. köldmedierapport, anmälan).",
+      "Säkerställ att åtgärder som kräver anmälan inte påbörjas för tidigt.",
+      "Åtgärda brister omgående om en förseelse upptäcks.",
+      "Dokumentera lämnade anmälningar och rapporter som bevis."
+    ]
+  },
+  {
+    id: "deponering",
+    title: "Förordning om deponering av avfall",
+    sfs: "SFS 2001:512",
+    category: "Avfall",
+    authority: "Länsstyrelsen / kommunens miljönämnd",
+    updated: "Senast ändrad 2023",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2001512-om-deponering-av-avfall_sfs-2001-512/",
+    summary:
+      "Reglerar krav vid deponering av avfall, inklusive klassificering av deponier, mottagningskriterier, karakterisering av avfall och förbud mot att deponera vissa avfallsslag (t.ex. utsorterat brännbart och organiskt avfall).",
+    appliesTo: "Verksamheter som deponerar avfall eller lämnar avfall till deponi.",
+    keywords: ["deponi", "deponering", "mottagningskriterier", "karakterisering", "brännbart avfall", "farligt avfall"],
+    checklist: [
+      "Karakterisera avfallet innan det lämnas till deponi.",
+      "Säkerställ att avfallet uppfyller mottagningskriterierna för rätt deponiklass.",
+      "Deponera inte utsorterat brännbart eller organiskt avfall.",
+      "Dokumentera avfallets ursprung, mängd och egenskaper.",
+      "Kontrollera att mottagande deponi har tillstånd."
+    ]
+  },
+  {
+    id: "producentansvar-dack",
+    title: "Förordning om producentansvar för däck",
+    sfs: "SFS 1994:1236",
+    category: "Producentansvar",
+    authority: "Naturvårdsverket",
+    updated: "Senast ändrad 2023",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-19941236-om-producentansvar-for_sfs-1994-1236/",
+    summary:
+      "Producenter av däck ansvarar för att uttjänta däck samlas in och återvinns eller återanvänds.",
+    appliesTo: "Företag som tillverkar eller för in däck (även däck på fordon) till Sverige.",
+    keywords: ["däck", "producentansvar", "insamling", "återvinning"],
+    checklist: [
+      "Avgör om företaget är producent av däck enligt förordningen.",
+      "Anslut dig till ett insamlingssystem för uttjänta däck.",
+      "Säkerställ att uttjänta däck tas emot och återvinns.",
+      "Informera om var däck kan lämnas.",
+      "Rapportera mängder enligt systemets krav."
+    ]
+  },
+  {
+    id: "producentansvar-bilar",
+    title: "Förordning om producentansvar för bilar",
+    sfs: "SFS 2007:185",
+    category: "Producentansvar",
+    authority: "Naturvårdsverket / Transportstyrelsen",
+    updated: "Senast ändrad 2022",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2007185-om-producentansvar-for-bilar_sfs-2007-185/",
+    summary:
+      "Bilproducenter ansvarar för att uttjänta personbilar och lätta lastbilar tas om hand, återanvänds och återvinns kostnadsfritt för bilägaren.",
+    appliesTo: "Företag som yrkesmässigt tillverkar eller för in bilar till Sverige.",
+    keywords: ["bilar", "uttjänta fordon", "producentansvar", "skrotning", "återvinning"],
+    checklist: [
+      "Avgör om företaget är bilproducent enligt förordningen.",
+      "Säkerställ ett rikstäckande mottagningssystem för uttjänta bilar.",
+      "Säkerställ att återvinningsmålen för fordon uppfylls.",
+      "Lämna uppgifter om återanvändning och återvinning till myndigheten.",
+      "Tillhandahåll demonteringsinformation till auktoriserade bilskrotare."
+    ]
+  },
+  {
+    id: "avfallstransport-gransoverskridande",
+    title: "Gränsöverskridande transport av avfall",
+    sfs: "EU 1013/2006 (ersätts av 2024/1157)",
+    category: "Avfall",
+    authority: "Naturvårdsverket",
+    updated: "Ny förordning tillämpas successivt",
+    link: "https://www.naturvardsverket.se/vagledning-och-stod/avfall/gransoverskridande-transporter-av-avfall/",
+    summary:
+      "Reglerar export, import och transitering av avfall mellan länder. Vissa avfallstransporter kräver anmälan och tillstånd (notifiering); export av farligt avfall för bortskaffande är förbjuden inom vissa områden.",
+    appliesTo: "Företag som transporterar, exporterar eller importerar avfall över landsgränser.",
+    keywords: ["avfallstransport", "export", "import", "notifiering", "farligt avfall", "transitering"],
+    checklist: [
+      "Avgör om avfallet får transporteras över gräns och under vilket förfarande.",
+      "Skilj på grön-listat avfall (informationskrav) och avfall som kräver notifiering.",
+      "Ansök om notifiering och tillstånd hos Naturvårdsverket vid behov.",
+      "Säkerställ ekonomisk säkerhet och avtal med mottagare.",
+      "Bifoga korrekta transportdokument under hela transporten.",
+      "Kontrollera att mottagningsanläggningen har tillstånd."
+    ]
+  },
+  {
+    id: "biocider",
+    title: "Biocidförordningen (EU)",
+    sfs: "EU 528/2012",
+    category: "Kemikalier",
+    authority: "Kemikalieinspektionen (KemI)",
+    updated: "EU-förordning",
+    link: "https://www.kemi.se/lagar-och-regler/bekampningsmedel/biocidprodukter",
+    summary:
+      "Reglerar godkännande och användning av biocidprodukter, t.ex. desinfektionsmedel, träskyddsmedel, råttgift och båtbottenfärg. Produkter måste vara godkända och innehålla godkända verksamma ämnen.",
+    appliesTo: "Företag som tillverkar, säljer eller yrkesmässigt använder biocidprodukter.",
+    keywords: ["biocider", "desinfektion", "träskydd", "bekämpningsmedel", "godkännande", "verksamt ämne"],
+    checklist: [
+      "Kartlägg vilka biocidprodukter verksamheten använder eller säljer.",
+      "Kontrollera att produkterna är godkända i Sverige/EU.",
+      "Säkerställ att eventuell behörighet/utbildning finns för yrkesmässig användning.",
+      "Följ villkor för användning, dosering och skyddsåtgärder.",
+      "Håll säkerhetsdatablad och godkännandenummer tillgängliga."
+    ]
+  },
+  {
+    id: "vaxtskyddsmedel",
+    title: "Växtskyddsmedel och bekämpningsmedel",
+    sfs: "EU 1107/2009 / SFS 2014:425",
+    category: "Kemikalier",
+    authority: "Kemikalieinspektionen / kommunen / Länsstyrelsen",
+    updated: "Senast ändrad 2023",
+    link: "https://www.kemi.se/lagar-och-regler/bekampningsmedel/vaxtskyddsmedel",
+    summary:
+      "Reglerar godkännande och användning av växtskyddsmedel (kemiska bekämpningsmedel för växtodling). Ställer krav på behörighet, dokumentation, skyddsavstånd och i vissa fall tillstånd eller anmälan för spridning.",
+    appliesTo: "Lantbruk, trädgård, golfbanor och andra som yrkesmässigt använder växtskyddsmedel.",
+    keywords: ["växtskyddsmedel", "bekämpningsmedel", "spridning", "behörighet", "integrerat växtskydd", "skyddsavstånd"],
+    checklist: [
+      "Använd endast i Sverige godkända växtskyddsmedel.",
+      "Säkerställ giltig användningsbehörighet (utbildning) för berörd personal.",
+      "Tillämpa principerna för integrerat växtskydd (IPM).",
+      "Anmäl eller sök tillstånd för spridning där det krävs (t.ex. känsliga områden).",
+      "För sprutjournal med preparat, dos, plats och tidpunkt.",
+      "Håll skyddsavstånd till vattendrag och förvara medlen säkert."
+    ]
+  },
+  {
+    id: "pops",
+    title: "POPs-förordningen – långlivade organiska föroreningar (EU)",
+    sfs: "EU 2019/1021",
+    category: "Kemikalier",
+    authority: "Kemikalieinspektionen / Naturvårdsverket",
+    updated: "EU-förordning",
+    link: "https://www.kemi.se/lagar-och-regler/ytterligare-eu-regler/pops-forordningen",
+    summary:
+      "Förbjuder eller starkt begränsar långlivade organiska föroreningar (POPs) i varor och kemiska produkter, samt ställer krav på hantering av avfall som innehåller POPs.",
+    appliesTo: "Tillverkare, importörer och avfallsinnehavare som hanterar berörda ämnen eller varor.",
+    keywords: ["pops", "långlivade organiska föroreningar", "pfas", "förbud", "avfall", "begränsning"],
+    checklist: [
+      "Kontrollera om produkter eller varor kan innehålla POPs-ämnen.",
+      "Säkerställ att förbjudna ämnen inte används eller släpps ut på marknaden.",
+      "Hantera avfall som innehåller POPs enligt särskilda krav (destruktion).",
+      "Begär information om ämnesinnehåll från leverantörer.",
+      "Dokumentera kontroller och åtgärder."
+    ]
+  },
+  {
+    id: "pcb",
+    title: "Förordning om PCB m.m.",
+    sfs: "SFS 2007:19",
+    category: "Kemikalier",
+    authority: "Kommunens miljönämnd",
+    updated: "Senast ändrad 2016",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-200719-om-pcb-mm_sfs-2007-19/",
+    summary:
+      "Kräver inventering och sanering av PCB i byggnader och anläggningar uppförda eller renoverade 1956–1973, t.ex. i fogmassor, golvmassor, isolerrutor och kondensatorer.",
+    appliesTo: "Fastighetsägare till byggnader och anläggningar från aktuell tidsperiod.",
+    keywords: ["pcb", "fogmassa", "sanering", "inventering", "fastighet", "byggnad"],
+    checklist: [
+      "Inventera byggnader uppförda/renoverade 1956–1973 efter PCB.",
+      "Anmäl sanering till kommunen i god tid (normalt minst tre veckor innan).",
+      "Sanera PCB-haltiga produkter inom föreskrivna tidsfrister.",
+      "Hantera PCB-avfall som farligt avfall.",
+      "Dokumentera inventering och utförd sanering."
+    ]
+  },
+  {
+    id: "cisterner",
+    title: "Cisterner och hantering av brandfarliga vätskor/spillolja",
+    sfs: "NFS 2021:10",
+    category: "Kemikalier",
+    authority: "Kommunens miljönämnd",
+    updated: "Gäller från 2022",
+    link: "https://www.naturvardsverket.se/vagledning-och-stod/fororeningar-och-sanering/cisterner/",
+    summary:
+      "Naturvårdsverkets föreskrifter om skydd mot mark- och vattenförorening vid hantering av brandfarliga vätskor och spilloljor. Ställer krav på återkommande kontroll, information till tillsynsmyndighet och förstärkt skydd inom vattenskyddsområde.",
+    appliesTo: "Verksamheter och fastigheter med cisterner för t.ex. eldningsolja, diesel eller spillolja.",
+    keywords: ["cistern", "olja", "diesel", "spillolja", "kontroll", "vattenskyddsområde", "invallning"],
+    checklist: [
+      "Inventera cisterner och rörledningar samt deras volym och placering.",
+      "Informera tillsynsmyndigheten innan en cistern installeras.",
+      "Låt ackrediterat företag utföra installations- och återkommande kontroll.",
+      "Säkerställ sekundärt skydd (invallning) där det krävs, särskilt inom vattenskyddsområde.",
+      "Anmäl cistern som tas ur bruk och töm och rengör den.",
+      "Spara kontrollrapporter och åtgärda anmärkningar."
+    ]
+  },
+  {
+    id: "kemikalieskatt",
+    title: "Lag om skatt på kemikalier i viss elektronik",
+    sfs: "SFS 2016:1067",
+    category: "Skatter & avgifter",
+    authority: "Skatteverket",
+    updated: "Senast ändrad 2023",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20161067-om-skatt-pa-kemikalier-i-viss_sfs-2016-1067/",
+    summary:
+      "Punktskatt på viss elektronik (t.ex. vitvaror och annan elektronik) baserad på vikt, med avdrag för produkter som inte innehåller vissa flamskyddsmedel. Syftar till att minska farliga ämnen i hemmiljön.",
+    appliesTo: "Företag som tillverkar, för in eller importerar skattepliktig elektronik yrkesmässigt.",
+    keywords: ["kemikalieskatt", "elektronik", "flamskyddsmedel", "punktskatt", "vitvaror", "avdrag"],
+    checklist: [
+      "Avgör om dina produkter är skattepliktig elektronik (KN-nummer och vikt).",
+      "Registrera dig som lagerhållare hos Skatteverket om förutsättningarna uppfylls.",
+      "Beräkna skatten utifrån produktens vikt och tillämpliga avdrag.",
+      "Dokumentera förekomst av flamskyddsmedel för att kunna yrka avdrag.",
+      "Deklarera och betala punktskatten i rätt tid."
+    ]
+  },
+  {
+    id: "vattentjanster",
+    title: "Lag om allmänna vattentjänster",
+    sfs: "SFS 2006:412",
+    category: "Vatten & avlopp",
+    authority: "Kommunen / VA-huvudman / Länsstyrelsen",
+    updated: "Senast ändrad 2023",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2006412-om-allmanna-vattentjanster_sfs-2006-412/",
+    summary:
+      "Reglerar kommunal vattenförsörjning och avlopp samt skyldigheter för den som är ansluten till det allmänna VA-nätet, inklusive krav på hantering av dag- och spillvatten.",
+    appliesTo: "Företag och fastighetsägare anslutna till kommunalt vatten och avlopp.",
+    keywords: ["vatten", "avlopp", "va", "spillvatten", "dagvatten", "anslutning", "abva", "oljeavskiljare"],
+    checklist: [
+      "Kartlägg verksamhetens anslutning till kommunalt vatten och avlopp.",
+      "Följ de allmänna bestämmelserna för VA (ABVA) i kommunen.",
+      "Släpp inte ut ämnen som kan skada ledningsnät eller reningsverk.",
+      "Installera olje- eller fettavskiljare där verksamheten kräver det.",
+      "Stäm av krav på industriellt avloppsvatten med VA-huvudmannen."
+    ]
+  },
+  {
+    id: "vattenforvaltning",
+    title: "Vattenförvaltning och miljökvalitetsnormer för vatten",
+    sfs: "SFS 2004:660",
+    category: "Vatten & avlopp",
+    authority: "Vattenmyndigheterna / Länsstyrelsen",
+    updated: "Senast ändrad 2024",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-2004660-om-forvaltning-av_sfs-2004-660/",
+    summary:
+      "Genomför EU:s ramdirektiv för vatten. Fastställer miljökvalitetsnormer (MKN) för yt- och grundvatten som verksamheter inte får bidra till att överskrida. Påverkar tillståndsprövningar och utsläppsvillkor.",
+    appliesTo: "Verksamheter som påverkar vattenkvaliteten genom utsläpp eller vattenuttag.",
+    keywords: ["miljökvalitetsnormer", "mkn", "vattendirektivet", "ekologisk status", "grundvatten", "utsläpp"],
+    checklist: [
+      "Identifiera vilka vattenförekomster verksamheten kan påverka.",
+      "Ta reda på gällande miljökvalitetsnormer och status för dessa.",
+      "Bedöm om verksamhetens utsläpp riskerar att försämra statusen.",
+      "Vidta åtgärder så att normerna inte överskrids.",
+      "Beakta MKN i tillståndsansökningar och egenkontroll."
+    ]
+  },
+  {
+    id: "luftkvalitet",
+    title: "Luftkvalitetsförordningen",
+    sfs: "SFS 2010:477",
+    category: "Luft & buller",
+    authority: "Naturvårdsverket / kommunen / Länsstyrelsen",
+    updated: "Senast ändrad 2023",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/luftkvalitetsforordning-2010477_sfs-2010-477/",
+    summary:
+      "Fastställer miljökvalitetsnormer för utomhusluft (t.ex. kvävedioxid, partiklar PM10 och PM2,5, bensen). Verksamheter får inte medverka till att normerna överskrids.",
+    appliesTo: "Verksamheter med utsläpp till luft eller som ger upphov till trafik som påverkar luftkvaliteten.",
+    keywords: ["luftkvalitet", "miljökvalitetsnormer", "partiklar", "kvävedioxid", "utsläpp till luft", "pm10"],
+    checklist: [
+      "Kartlägg verksamhetens utsläpp till luft och berörda föroreningar.",
+      "Kontrollera gällande miljökvalitetsnormer för området.",
+      "Bedöm om verksamheten bidrar till att normer riskerar att överskridas.",
+      "Vidta åtgärder för att begränsa utsläpp och damning.",
+      "Beakta luftnormer i lokalisering och tillståndsprövning."
+    ]
+  },
+  {
+    id: "verksamhetsbuller",
+    title: "Buller från industri och annan verksamhet",
+    sfs: "Miljöbalken 2 & 26 kap.",
+    category: "Luft & buller",
+    authority: "Kommunens miljönämnd / Länsstyrelsen",
+    updated: "Naturvårdsverkets vägledning",
+    link: "https://www.naturvardsverket.se/vagledning-och-stod/buller/industri--och-annat-verksamhetsbuller/",
+    summary:
+      "Buller från verksamheter regleras genom miljöbalkens hänsynsregler och Naturvårdsverkets vägledning med riktvärden för ljudnivå vid bostäder. Verksamheten ska förebygga och begränsa störande buller mot omgivningen.",
+    appliesTo:
+      "Verksamheter som ger upphov till buller mot bostäder eller känsliga områden (industri, fläktar, transporter, restaurang m.m.).",
+    keywords: ["buller", "ljudnivå", "riktvärden", "omgivning", "störning", "bostäder"],
+    checklist: [
+      "Identifiera bullerkällor och närliggande bostäder eller känsliga punkter.",
+      "Jämför verksamhetens ljudnivåer mot Naturvårdsverkets riktvärden.",
+      "Genomför bullermätning eller beräkning vid behov.",
+      "Vidta åtgärder (inkapsling, drifttider, ljuddämpning) för att klara riktvärdena.",
+      "Hantera klagomål och dokumentera åtgärder i egenkontrollen."
+    ]
+  },
+  {
+    id: "ekodesign-espr",
+    title: "Ekodesign för hållbara produkter (ESPR)",
+    sfs: "EU 2024/1781",
+    category: "Plast & produkter",
+    authority: "Energimyndigheten / Naturvårdsverket / Kemikalieinspektionen",
+    updated: "I kraft 2024, krav införs successivt",
+    link: "https://www.naturvardsverket.se/amnesomraden/cirkular-ekonomi/eu-forordningen-om-ekodesign-for-hallbara-produkter-espr/",
+    summary:
+      "EU:s ekodesignförordning som ersätter ekodesigndirektivet (2009/125). Ställer krav på produkters hållbarhet, reparerbarhet, återvinningsbarhet och ett digitalt produktpass. Krav införs per produktgrupp genom delegerade akter och den förbjuder förstöring av osålda konsumentprodukter.",
+    appliesTo:
+      "Tillverkare, importörer och distributörer av produkter som omfattas av delegerade akter (successivt allt fler produktgrupper).",
+    keywords: ["ekodesign", "espr", "digitalt produktpass", "cirkulär ekonomi", "reparerbarhet", "återvinningsbarhet"],
+    checklist: [
+      "Bevaka vilka delegerade akter och produktgrupper som berör dina produkter.",
+      "Kartlägg krav på hållbarhet, reparerbarhet och återvinningsbarhet.",
+      "Förbered framtagande av digitalt produktpass för berörda produkter.",
+      "Säkerställ att produktinformation och dokumentation finns tillgänglig.",
+      "Inför rutiner för att inte förstöra osålda konsumentprodukter där förbud gäller.",
+      "Följ tidplanen för respektive produktgrupp."
+    ]
+  },
+  {
+    id: "energimarkning",
+    title: "Energimärkningsförordningen (EU)",
+    sfs: "EU 2017/1369",
+    category: "Energi",
+    authority: "Energimyndigheten",
+    updated: "EU-förordning",
+    link: "https://www.energimyndigheten.se/energieffektivisering/produkter-med-energimarkning/",
+    summary:
+      "Kräver att energirelaterade produkter (t.ex. vitvaror, belysning, bildskärmar) förses med EU:s energimärkningsetikett och produktinformationsblad samt registreras i EPREL-databasen.",
+    appliesTo: "Tillverkare, importörer och återförsäljare av energimärkta produkter.",
+    keywords: ["energimärkning", "eprel", "energietikett", "vitvaror", "produktblad", "energiklass"],
+    checklist: [
+      "Kontrollera om produkterna omfattas av energimärkningskrav.",
+      "Registrera produkter i EU:s produktdatabas EPREL.",
+      "Förse produkter med korrekt energietikett och produktinformationsblad.",
+      "Säkerställ att etiketten visas i butik och vid distansförsäljning.",
+      "Håll teknisk dokumentation tillgänglig för marknadskontroll."
+    ]
+  },
+  {
+    id: "energideklaration",
+    title: "Lag om energideklaration för byggnader",
+    sfs: "SFS 2006:985",
+    category: "Energi",
+    authority: "Boverket",
+    updated: "Senast ändrad 2020",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2006985-om-energideklaration-for_sfs-2006-985/",
+    summary:
+      "Kräver energideklaration för många byggnader, bl.a. vid uthyrning och försäljning samt för större lokaler som ofta besöks av allmänheten. Deklarationen visar byggnadens energiprestanda och förslag på åtgärder.",
+    appliesTo: "Ägare av byggnader som hyrs ut, säljs eller utgör större publika lokaler.",
+    keywords: ["energideklaration", "byggnad", "energiprestanda", "uthyrning", "försäljning", "lokal"],
+    checklist: [
+      "Avgör om byggnaden ska ha en giltig energideklaration.",
+      "Anlita en certifierad energiexpert för att upprätta deklarationen.",
+      "Säkerställ att deklarationen registreras hos Boverket.",
+      "Anslå energideklarationen i större publika lokaler.",
+      "Visa energiprestanda vid annonsering inför uthyrning eller försäljning.",
+      "Förnya deklarationen minst vart tionde år."
+    ]
+  },
+  {
+    id: "energiskatt",
+    title: "Lag om skatt på energi (energi- och koldioxidskatt)",
+    sfs: "SFS 1994:1776",
+    category: "Skatter & avgifter",
+    authority: "Skatteverket",
+    updated: "Senast ändrad 2024",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-19941776-om-skatt-pa-energi_sfs-1994-1776/",
+    summary:
+      "Reglerar energiskatt, koldioxidskatt och svavelskatt på bränslen och el. Innehåller även regler om avdrag, nedsättning och återbetalning för vissa verksamheter (t.ex. industri och jordbruk).",
+    appliesTo: "Företag som förbrukar el och bränslen, samt producenter och leverantörer av energi.",
+    keywords: ["energiskatt", "koldioxidskatt", "bränsle", "el", "återbetalning", "punktskatt"],
+    checklist: [
+      "Kartlägg verksamhetens förbrukning av el och bränslen.",
+      "Kontrollera om verksamheten har rätt till nedsättning eller återbetalning.",
+      "Ansök om återbetalning av energi- eller koldioxidskatt där det är möjligt.",
+      "Säkerställ korrekt hantering om företaget är skattskyldigt (t.ex. egen produktion).",
+      "Dokumentera underlag för avdrag och deklarera i rätt tid."
+    ]
+  },
+  {
+    id: "seveso",
+    title: "Seveso – allvarliga kemikalieolyckor",
+    sfs: "SFS 1999:381 / förordn. 2015:236",
+    category: "Risk & säkerhet",
+    authority: "Länsstyrelsen / MSB / kommunen",
+    updated: "Genomför Seveso III-direktivet",
+    link: "https://www.msb.se/sv/amnesomraden/skydd-mot-olyckor-och-farliga-amnen/farliga-amnen/seveso/",
+    summary:
+      "Gäller verksamheter som hanterar stora mängder farliga kemikalier. Ställer krav på förebyggande av allvarliga kemikalieolyckor, anmälan eller säkerhetsrapport, handlingsprogram och information till allmänheten.",
+    appliesTo: "Verksamheter som hanterar farliga ämnen över Sevesodirektivets mängdtrösklar (lägre eller högre kravnivå).",
+    keywords: ["seveso", "kemikalieolycka", "säkerhetsrapport", "farliga ämnen", "handlingsprogram", "risk"],
+    checklist: [
+      "Summera mängderna av farliga ämnen och jämför mot Sevesotrösklarna.",
+      "Avgör om verksamheten omfattas av lägre eller högre kravnivå.",
+      "Lämna anmälan (lägre nivå) eller säkerhetsrapport (högre nivå) till länsstyrelsen.",
+      "Upprätta handlingsprogram och säkerhetsledningssystem för att förebygga olyckor.",
+      "Ta fram intern plan för räddningsinsatser och samverka om extern plan.",
+      "Informera allmänheten om risker och skyddsåtgärder."
+    ]
+  },
+  {
+    id: "eudr",
+    title: "Avskogningsförordningen (EUDR)",
+    sfs: "EU 2023/1115",
+    category: "Leverantörskedja",
+    authority: "Skogsstyrelsen / Länsstyrelsen",
+    updated: "Tillämpas 30 dec 2026 (små företag 30 juni 2027)",
+    link: "https://www.skogsstyrelsen.se/lag-och-tillsyn/avskogningsforordningen/",
+    summary:
+      "Förbjuder att vissa råvaror och produkter som bidragit till avskogning släpps ut på EU-marknaden. Omfattar nötkött, trä, soja, palmolja, kakao, kaffe och gummi samt produkter av dessa. Kräver tillbörlig aktsamhet (due diligence) och geografisk spårbarhet.",
+    appliesTo: "Företag som släpper ut, handlar med eller exporterar berörda råvaror och produkter.",
+    keywords: ["eudr", "avskogning", "due diligence", "spårbarhet", "soja", "kaffe", "trä", "palmolja"],
+    checklist: [
+      "Kartlägg om dina produkter omfattas (nötkött, trä, soja, palmolja, kakao, kaffe, gummi).",
+      "Bygg upp ett system för tillbörlig aktsamhet (due diligence).",
+      "Samla in geografiska koordinater för var råvaran producerats.",
+      "Bedöm och minimera risken för avskogning och olaglig produktion.",
+      "Lämna förklaring om tillbörlig aktsamhet i EU:s informationssystem.",
+      "Säkerställ att rätt tidsfrist tillämpas (stora företag dec 2026, små juni 2027)."
+    ]
+  },
+  {
+    id: "konfliktmineraler",
+    title: "Konfliktmineralförordningen (EU)",
+    sfs: "EU 2017/821",
+    category: "Leverantörskedja",
+    authority: "Kommerskollegium",
+    updated: "EU-förordning",
+    link: "https://www.kommerskollegium.se/",
+    summary:
+      "Kräver att importörer av tenn, tantal, volfram och guld (3TG) gör tillbörlig aktsamhet i leverantörskedjan för att säkerställa att mineralerna inte finansierar konflikter eller kränkningar i högriskområden.",
+    appliesTo: "Företag som importerar tenn, tantal, volfram, guld eller deras malmer till EU över vissa volymtrösklar.",
+    keywords: ["konfliktmineraler", "3tg", "tenn", "tantal", "volfram", "guld", "due diligence"],
+    checklist: [
+      "Avgör om företaget importerar 3TG-mineraler över volymtröskeln.",
+      "Inför ett system för tillbörlig aktsamhet enligt OECD:s vägledning.",
+      "Identifiera smältverk och raffinaderier i leverantörskedjan.",
+      "Bedöm och hantera risker kopplade till konfliktområden.",
+      "Låt en oberoende part granska aktsamheten och rapportera årligen."
+    ]
   }
 ];
 
