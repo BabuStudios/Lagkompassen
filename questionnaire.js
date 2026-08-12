@@ -38,6 +38,37 @@
       ]
     },
     {
+      id: "anstallda",
+      title: "Har ni anställd personal?",
+      help: "Så fort ni har minst en anställd har ni ett arbetsgivaransvar för arbetsmiljön. Då gäller flera grundläggande arbetsmiljöregler – t.ex. att jobba systematiskt med arbetsmiljön, se till att lokaler och utrustning är säkra och att följa arbetstidsreglerna. Är ni ett enmansföretag utan anställda? Välj Nej.",
+      multi: false,
+      options: [
+        {
+          label: "Ja, vi har anställd personal",
+          laws: [
+            "arbetsmiljolagen",
+            "arbetsmiljoforordningen",
+            "systematiskt-arbetsmiljoarbete",
+            "risker-arbetsmiljo",
+            "arbetsplatsens-utformning",
+            "arbetstidslagen"
+          ]
+        },
+        { label: "Nej, inga anställda (t.ex. enmansföretag)", laws: [] }
+      ]
+    },
+    {
+      id: "arbetsmiljo",
+      title: "Förekommer något av detta i arbetet?",
+      help: "Vissa arbetsmoment har extra arbetsmiljöregler. Maskiner, verktyg och skyddsutrustning kräver säker användning och ibland besiktning. Bygg- och anläggningsarbete samt asbest kräver särskild samordning och skydd. Och vissa arbeten – t.ex. med härdplaster, mycket buller, vibrationer eller nattarbete – kräver regelbundna hälsokontroller. Kryssa i det som stämmer.",
+      multi: true,
+      options: [
+        { label: "Maskiner, verktyg, lyftanordningar eller personlig skyddsutrustning", laws: ["arbetsutrustning-ppe"] },
+        { label: "Bygg- och anläggningsarbete, eller arbete med asbest/kvarts", laws: ["risker-vissa-arbeten"] },
+        { label: "Arbete som kan kräva hälsokontroller (härdplast, buller, vibrationer, nattarbete, höjd)", laws: ["medicinska-kontroller"] }
+      ]
+    },
+    {
       id: "tillstand",
       title: "Behöver ni ett godkännande (tillstånd eller anmälan) för att driva verksamheten?",
       help: "Menar: måste ni ha ett ja från kommunen eller länsstyrelsen innan ni får bedriva verksamheten? Det är vanligt för t.ex. verkstäder, lackerare, livsmedelstillverkning, lantbruk med djur samt bygg- och avfallsanläggningar. \"A/B\" betyder att det krävs ett tillstånd, \"C\" att det räcker med en anmälan. Vet du inte? Fråga kommunens miljökontor, eller välj \"Nej eller osäker\".",
@@ -348,7 +379,7 @@
       "<h2>Vilka lagar gäller er?</h2>" +
       "<p>Svara på " +
       QUESTIONS.length +
-      " korta frågor om er verksamhet. Varje fråga förklaras med vardagliga ord och exempel. Utifrån svaren föreslår vi vilka miljö- och hållbarhetslagar som troligen berör er. Det tar under en minut.</p>" +
+      " korta frågor om er verksamhet. Varje fråga förklaras med vardagliga ord och exempel. Utifrån svaren föreslår vi vilka miljö-, hållbarhets- och arbetsmiljölagar som troligen berör er. Det tar under en minut.</p>" +
       '<label class="lkq-field"><span>Företagets namn (valfritt)</span>' +
       '<input type="text" id="lkqCompany" maxlength="80" placeholder="t.ex. Exempel AB" value="' +
       escapeHtml(companyName) +
