@@ -25,7 +25,7 @@
     {
       id: "storlek",
       title: "Hur stort är företaget?",
-      help: "Vissa krav gäller bara större företag.",
+      help: "Räkna ungefär antal anställda och årsomsättning. Enkelt uttryckt: ju större företag, desto fler krav – riktigt stora företag måste t.ex. göra en hållbarhetsrapport och en energikartläggning. Är du osäker, välj det som ligger närmast.",
       multi: false,
       options: [
         { label: "Litet – färre än ca 50 anställda", laws: [] },
@@ -39,8 +39,8 @@
     },
     {
       id: "tillstand",
-      title: "Bedriver ni tillstånds- eller anmälningspliktig miljöfarlig verksamhet?",
-      help: "T.ex. tillverkning, ytbehandling, större lantbruk, avfallshantering eller energiproduktion.",
+      title: "Behöver ni ett godkännande (tillstånd eller anmälan) för att driva verksamheten?",
+      help: "Menar: måste ni ha ett ja från kommunen eller länsstyrelsen innan ni får bedriva verksamheten? Det är vanligt för t.ex. verkstäder, lackerare, livsmedelstillverkning, lantbruk med djur samt bygg- och avfallsanläggningar. \"A/B\" betyder att det krävs ett tillstånd, \"C\" att det räcker med en anmälan. Vet du inte? Fråga kommunens miljökontor, eller välj \"Nej eller osäker\".",
       multi: false,
       options: [
         {
@@ -67,9 +67,8 @@
     },
     {
       id: "industri",
-      title:
-        "Är ni en större industrianläggning som kan omfattas av industriutsläppsdirektivet (IED)?",
-      help: "T.ex. kemisk industri, metall, massa/papper eller stora förbränningsanläggningar.",
+      title: "Är ni en stor, tung industri?",
+      help: "Det här gäller bara riktigt stora industrier som släpper ut mycket – t.ex. raffinaderier, stålverk, massabruk och stora kemi- eller energianläggningar. Är ni ett kontor, en butik, en verkstad eller ett mindre företag? Då väljer du \"Nej\".",
       multi: false,
       options: [
         { label: "Ja", laws: ["industriutslapp"] },
@@ -78,8 +77,8 @@
     },
     {
       id: "kemikalier",
-      title: "Hur hanterar ni kemiska produkter?",
-      help: "Välj allt som stämmer.",
+      title: "Använder eller säljer ni kemiska produkter?",
+      help: "Med kemiska produkter menas vardagliga saker som rengöringsmedel, lösningsmedel, färg, lim, oljor och sprayer – sånt som har en innehållsförteckning och ofta varningssymboler på förpackningen. Använder ni bara sådant i verksamheten? Välj det första. Tillverkar, importerar eller säljer ni själva kemiska produkter? Kryssa även i det andra. (Välj det som stämmer.)",
       multi: true,
       options: [
         { label: "Vi använder kemiska produkter i verksamheten", laws: ["kemikalier-reach", "egenkontroll"] },
@@ -88,8 +87,8 @@
     },
     {
       id: "specialkem",
-      title: "Använder eller hanterar ni något av följande ämnen?",
-      help: "Välj allt som stämmer.",
+      title: "Hanterar ni några särskilt reglerade ämnen?",
+      help: "Det här är kemikalier med extra hårda regler. Biocider är ämnen som dödar organismer – t.ex. handsprit, myggmedel, träskyddsmedel, båtbottenfärg och råttgift. Växtskyddsmedel bekämpar ogräs och insekter i odling. PFAS och flamskyddsmedel finns bl.a. i impregnering, brandsläckningsskum och viss elektronik. Känner du inte igen något av detta? Hoppa bara vidare.",
       multi: true,
       options: [
         { label: "Biocider (desinfektion, träskydd, råttgift, båtbottenfärg)", laws: ["biocider"] },
@@ -100,7 +99,7 @@
     {
       id: "koldmedier",
       title: "Har ni kyl, frys, värmepump eller luftkonditionering?",
-      help: "Utrustning som innehåller köldmedier (f-gas).",
+      help: "Köldmedier är gasen som gör att kyla fungerar, och den finns i kylar, frysar, kylrum, värmepumpar och luftkonditionering. Har ni sådan utrustning i verksamheten? Välj Ja. (Reglerna börjar gälla från en viss mängd, men det är bra att känna till dem oavsett.)",
       multi: false,
       options: [
         { label: "Ja", laws: ["fgaser"] },
@@ -109,8 +108,8 @@
     },
     {
       id: "cistern",
-      title: "Har ni cisterner för olja, diesel eller spillolja?",
-      help: "",
+      title: "Har ni en tank (cistern) för olja, diesel eller spillolja?",
+      help: "En cistern är helt enkelt en tank där man lagrar vätska – oftast eldningsolja, diesel eller spillolja. Den kan stå i källaren, garaget eller ute på gården. Har ni någon sådan tank? Välj Ja.",
       multi: false,
       options: [
         { label: "Ja", laws: ["cisterner"] },
@@ -119,8 +118,8 @@
     },
     {
       id: "fastighet",
-      title: "Äger eller förvaltar ni byggnader eller mark?",
-      help: "Välj allt som stämmer.",
+      title: "Äger eller sköter ni byggnader eller mark?",
+      help: "Frågan gäller om ni äger eller förvaltar hus eller mark. Varför det spelar roll: hus byggda eller renoverade 1956–1973 kan innehålla giftig PCB i fogar; uthyrning, försäljning och stora publika lokaler kräver ofta en energideklaration; och bygge nära stränder/naturområden eller arbeten i vatten (brygga, muddring, dränering) kräver oftast tillstånd. Kryssa i det som stämmer.",
       multi: true,
       options: [
         { label: "Vi äger byggnader byggda eller renoverade 1956–1973", laws: ["pcb"] },
@@ -131,8 +130,8 @@
     },
     {
       id: "produkter",
-      title: "Tillverkar, importerar eller säljer ni något av följande?",
-      help: "Välj allt som stämmer.",
+      title: "Tillverkar, importerar eller säljer ni fysiska produkter?",
+      help: "Detta gäller om ni sätter produkter på marknaden – alltså tillverkar dem, tar in dem från utlandet eller säljer dem vidare – inte om ni bara använder dem själva. Kryssa i de produkttyper det gäller. Varje typ har egna krav på t.ex. märkning, återvinning och vilka ämnen som är tillåtna.",
       multi: true,
       options: [
         {
@@ -147,8 +146,8 @@
     },
     {
       id: "forpackningar",
-      title: "Sätter ni förpackningar eller förpackade varor på den svenska marknaden?",
-      help: "Gäller även import och e-handel som skickar varor till Sverige.",
+      title: "Skickar ni ut förpackningar eller förpackade varor på marknaden?",
+      help: "Med förpackning menas allt som omsluter en vara: kartonger, wellådor, plastpåsar, burkar – även själva lådan ni packar era produkter i. Det gäller också import och e-handel som skickar varor till svenska kunder. Gör ni något av detta? Välj Ja.",
       multi: false,
       options: [
         { label: "Ja", laws: ["producentansvar-forpackningar"] },
@@ -157,8 +156,8 @@
     },
     {
       id: "konsument",
-      title: "Säljer ni direkt till konsument?",
-      help: "Välj allt som stämmer.",
+      title: "Säljer ni till privatpersoner?",
+      help: "Frågan gäller försäljning direkt till konsument. Två saker har extra regler: butiker som lämnar ut plastkassar, och serveringsställen (restaurang, café, take-away) som använder engångsartiklar som muggar, matlådor och bestick. Kryssa i det som stämmer för er.",
       multi: true,
       options: [
         { label: "Butik som tillhandahåller plastbärkassar", laws: ["plastbarkassar"] },
@@ -167,8 +166,8 @@
     },
     {
       id: "avfall",
-      title: "Hanterar ni avfall på något av följande sätt?",
-      help: "Utöver vanlig källsortering. Välj allt som stämmer.",
+      title: "Hanterar ni avfall på något särskilt sätt?",
+      help: "Utöver den vanliga sopsorteringen som alla har: skickar ni avfall till eller från utlandet, lämnar ni avfall till deponi (soptipp) eller eldar/förbränner ni avfall? Kryssa i det som stämmer. Gör ni inget av detta – hoppa bara vidare.",
       multi: true,
       options: [
         { label: "Vi transporterar avfall över landsgräns (export/import)", laws: ["avfallstransport-gransoverskridande"] },
@@ -178,8 +177,8 @@
     },
     {
       id: "utslapp",
-      title: "Ger er verksamhet upphov till något av följande mot omgivningen?",
-      help: "Välj allt som stämmer.",
+      title: "Påverkar er verksamhet luft, vatten eller ljudnivå i omgivningen?",
+      help: "Frågan handlar om vad som lämnar er verksamhet och kan störa omgivningen: rök, damm eller avgaser till luften; utsläpp till eller uttag av vatten; buller som grannar kan störas av; eller smutsigt process- eller spillvatten som går till avloppet. Kryssa i det som stämmer.",
       multi: true,
       options: [
         { label: "Utsläpp till luft (processer, förbränning, damning)", laws: ["luftkvalitet"] },
@@ -190,8 +189,8 @@
     },
     {
       id: "energiklimat",
-      title: "Omfattas ni av något av följande på energi- och klimatområdet?",
-      help: "Välj allt som stämmer.",
+      title: "Berörs ni av något på energi- och klimatområdet?",
+      help: "Det här är mest för energitunga företag och importörer. Kort förklarat: EU ETS = stora anläggningar som måste köpa utsläppsrätter för sin koldioxid; drivmedel = ni säljer bensin, diesel eller biobränsle; CBAM = ni importerar stål, aluminium, cement m.m. från länder utanför EU; stor el- eller bränsleförbrukning kan ge rätt till återbetald skatt. Kryssa i det som stämmer, annars hoppa vidare.",
       multi: true,
       options: [
         { label: "Energiintensiv anläggning inom EU:s utsläppshandel (EU ETS)", laws: ["utslappsratter"] },
@@ -202,8 +201,8 @@
     },
     {
       id: "leverantorskedja",
-      title: "Handlar ni med något av följande?",
-      help: "Välj allt som stämmer.",
+      title: "Köper ni in eller säljer vidare något av dessa råvaror?",
+      help: "Frågan handlar om vad ni köper in eller säljer vidare. Tre saker har särskilda krav: råvaror kopplade till skövling av skog (trä, soja, palmolja, kakao, kaffe, gummi, nötkött), så kallade konfliktmineraler (tenn, tantal, volfram och guld – finns bl.a. i elektronik), och stora mängder farliga kemikalier. Kryssa i det som stämmer.",
       multi: true,
       options: [
         { label: "Trä, soja, palmolja, kakao, kaffe, gummi eller nötkött", laws: ["eudr"] },
@@ -349,7 +348,7 @@
       "<h2>Vilka lagar gäller er?</h2>" +
       "<p>Svara på " +
       QUESTIONS.length +
-      " korta frågor om er verksamhet. Utifrån svaren föreslår vi vilka miljö- och hållbarhetslagar som troligen berör er. Det tar under en minut.</p>" +
+      " korta frågor om er verksamhet. Varje fråga förklaras med vardagliga ord och exempel. Utifrån svaren föreslår vi vilka miljö- och hållbarhetslagar som troligen berör er. Det tar under en minut.</p>" +
       '<label class="lkq-field"><span>Företagets namn (valfritt)</span>' +
       '<input type="text" id="lkqCompany" maxlength="80" placeholder="t.ex. Exempel AB" value="' +
       escapeHtml(companyName) +
@@ -642,7 +641,7 @@
       ".lkq-progress{height:8px;background:var(--border);border-radius:999px;overflow:hidden;margin-bottom:8px}" +
       ".lkq-progress-fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:999px;transition:width .25s ease}" +
       ".lkq-step{font-size:.8rem;color:var(--ink-faint);font-weight:600}" +
-      ".lkq-help{color:var(--ink-faint);font-size:.9rem;margin:0 0 16px}" +
+      ".lkq-help{color:var(--ink-soft);font-size:.94rem;line-height:1.5;margin:0 0 18px;padding:12px 14px;background:var(--bg);border-radius:10px;border-left:3px solid var(--primary)}" +
       ".lkq-options{display:flex;flex-direction:column;gap:9px}" +
       ".lkq-opt{display:flex;align-items:flex-start;gap:12px;width:100%;text-align:left;border:1px solid var(--border);background:var(--surface);border-radius:11px;padding:14px 15px;cursor:pointer;font-family:inherit;font-size:.96rem;color:var(--ink);transition:border-color .14s,background .14s}" +
       ".lkq-opt:hover{border-color:var(--primary)}" +
