@@ -49,6 +49,7 @@
             "arbetsmiljolagen",
             "arbetsmiljoforordningen",
             "systematiskt-arbetsmiljoarbete",
+            "planering-organisering-am",
             "risker-arbetsmiljo",
             "arbetsplatsens-utformning",
             "arbetstidslagen"
@@ -64,8 +65,9 @@
       multi: true,
       options: [
         { label: "Maskiner, verktyg, lyftanordningar eller personlig skyddsutrustning", laws: ["arbetsutrustning-ppe"] },
-        { label: "Bygg- och anläggningsarbete, eller arbete med asbest/kvarts", laws: ["risker-vissa-arbeten"] },
-        { label: "Arbete som kan kräva hälsokontroller (härdplast, buller, vibrationer, nattarbete, höjd)", laws: ["medicinska-kontroller"] }
+        { label: "Bygg- och anläggningsarbete, eller arbete med asbest/kvarts", laws: ["risker-vissa-arbeten", "projektering-byggsamordning"] },
+        { label: "Arbete som kan kräva hälsokontroller (härdplast, buller, vibrationer, nattarbete, höjd)", laws: ["medicinska-kontroller"] },
+        { label: "Luftföroreningar som damm, rök, gaser eller ånga", laws: ["gransvarden-luftvagsexponering"] }
       ]
     },
     {
@@ -172,7 +174,8 @@
         { label: "Batterier (även inbyggda i produkter)", laws: ["producentansvar-batterier"] },
         { label: "Däck", laws: ["producentansvar-dack"] },
         { label: "Bilar eller lätta lastbilar", laws: ["producentansvar-bilar"] },
-        { label: "Energirelaterade produkter (vitvaror, belysning m.m.)", laws: ["energimarkning", "ekodesign-espr"] }
+        { label: "Energirelaterade produkter (vitvaror, belysning m.m.)", laws: ["energimarkning", "ekodesign-espr"] },
+        { label: "Maskiner, tryckkärl, ställningar eller ATEX-utrustning (som ni tillverkar/släpper ut på marknaden)", laws: ["produkter-maskiner", "produkter-tryckbarande", "produkter-enkla-tryckkarl", "produkter-atex", "produkter-hojdutrustning"] }
       ]
     },
     {
