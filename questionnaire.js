@@ -33,7 +33,7 @@
         {
           label:
             "Stort – minst 250 anställda, eller omsättning över ~500 mkr och balansomslutning över ~430 mkr",
-          laws: ["energikartlaggning", "hallbarhetsrapport", "taxonomin"]
+          laws: ["energikartlaggning", "hallbarhetsrapport", "taxonomin", "csddd"]
         }
       ]
     },
@@ -85,7 +85,9 @@
             "miljoprovningsforordningen",
             "egenkontroll",
             "miljosanktionsavgifter",
-            "miljorapport"
+            "miljorapport",
+            "miljobedomning-mkb",
+            "provnings-tillsynsavgift"
           ]
         },
         {
@@ -94,7 +96,8 @@
             "miljofarlig-verksamhet",
             "miljoprovningsforordningen",
             "egenkontroll",
-            "miljosanktionsavgifter"
+            "miljosanktionsavgifter",
+            "provnings-tillsynsavgift"
           ]
         },
         { label: "Nej eller osäker", laws: [] }
@@ -116,8 +119,8 @@
       help: "Med kemiska produkter menas vardagliga saker som rengöringsmedel, lösningsmedel, färg, lim, oljor och sprayer – sånt som har en innehållsförteckning och ofta varningssymboler på förpackningen. Använder ni bara sådant i verksamheten? Välj det första. Tillverkar, importerar eller säljer ni själva kemiska produkter? Kryssa även i det andra. (Välj det som stämmer.)",
       multi: true,
       options: [
-        { label: "Vi använder kemiska produkter i verksamheten", laws: ["kemikalier-reach", "egenkontroll"] },
-        { label: "Vi tillverkar, importerar eller säljer kemiska produkter", laws: ["kemikalier-reach", "clp"] }
+        { label: "Vi använder kemiska produkter i verksamheten", laws: ["kemikalier-reach", "egenkontroll", "voc-losningsmedel"] },
+        { label: "Vi tillverkar, importerar eller säljer kemiska produkter", laws: ["kemikalier-reach", "clp", "kemiska-produkter-produktregister", "farligt-gods"] }
       ]
     },
     {
@@ -128,7 +131,8 @@
       options: [
         { label: "Biocider (desinfektion, träskydd, råttgift, båtbottenfärg)", laws: ["biocider"] },
         { label: "Växtskyddsmedel (odling, golfbana, trädgård)", laws: ["vaxtskyddsmedel"] },
-        { label: "PFAS, flamskyddsmedel eller andra långlivade ämnen", laws: ["pops"] }
+        { label: "PFAS, flamskyddsmedel eller andra långlivade ämnen", laws: ["pops"] },
+        { label: "Kvicksilver eller kvicksilverhaltiga varor", laws: ["kvicksilver"] }
       ]
     },
     {
@@ -137,7 +141,7 @@
       help: "Köldmedier är gasen som gör att kyla fungerar, och den finns i kylar, frysar, kylrum, värmepumpar och luftkonditionering. Har ni sådan utrustning i verksamheten? Välj Ja. (Reglerna börjar gälla från en viss mängd, men det är bra att känna till dem oavsett.)",
       multi: false,
       options: [
-        { label: "Ja", laws: ["fgaser"] },
+        { label: "Ja", laws: ["fgaser", "ozonnedbrytande"] },
         { label: "Nej", laws: [] }
       ]
     },
@@ -147,7 +151,7 @@
       help: "En cistern är helt enkelt en tank där man lagrar vätska – oftast eldningsolja, diesel eller spillolja. Den kan stå i källaren, garaget eller ute på gården. Har ni någon sådan tank? Välj Ja.",
       multi: false,
       options: [
-        { label: "Ja", laws: ["cisterner"] },
+        { label: "Ja", laws: ["cisterner", "brandfarliga-explosiva"] },
         { label: "Nej", laws: [] }
       ]
     },
@@ -159,8 +163,9 @@
       options: [
         { label: "Vi äger byggnader byggda eller renoverade 1956–1973", laws: ["pcb"] },
         { label: "Vi hyr ut, säljer eller har större publika lokaler", laws: ["energideklaration"] },
-        { label: "Vi planerar bygge/verksamhet nära strand eller skyddat naturområde", laws: ["naturvardslagen-strandskydd"] },
-        { label: "Vi utför arbeten i vatten (muddring, brygga, markavvattning, vattenuttag)", laws: ["vattenverksamhet"] }
+        { label: "Vi planerar bygge/verksamhet nära strand eller skyddat naturområde", laws: ["naturvardslagen-strandskydd", "artskyddsforordningen"] },
+        { label: "Vi utför arbeten i vatten (muddring, brygga, markavvattning, vattenuttag)", laws: ["vattenverksamhet"] },
+        { label: "Vi äger eller använder industri-/verksamhetsmark (risk för förorening)", laws: ["fororenade-omraden"] }
       ]
     },
     {
@@ -173,7 +178,7 @@
           label: "Elektronik / elutrustning",
           laws: ["producentansvar-elutrustning", "rohs", "kemikalieskatt", "ekodesign-espr", "energimarkning"]
         },
-        { label: "Batterier (även inbyggda i produkter)", laws: ["producentansvar-batterier"] },
+        { label: "Batterier (även inbyggda i produkter)", laws: ["producentansvar-batterier", "eu-batteriforordning"] },
         { label: "Däck", laws: ["producentansvar-dack"] },
         { label: "Bilar eller lätta lastbilar", laws: ["producentansvar-bilar"] },
         { label: "Energirelaterade produkter (vitvaror, belysning m.m.)", laws: ["energimarkning", "ekodesign-espr"] },
@@ -208,7 +213,8 @@
       options: [
         { label: "Vi transporterar avfall över landsgräns (export/import)", laws: ["avfallstransport-gransoverskridande"] },
         { label: "Vi deponerar avfall eller lämnar avfall till deponi", laws: ["deponering"] },
-        { label: "Vi förbränner eller samförbränner avfall", laws: ["avfallsforbranning"] }
+        { label: "Vi förbränner eller samförbränner avfall", laws: ["avfallsforbranning"] },
+        { label: "Vi bedriver bygg-, rivnings- eller anläggningsarbete (bygg- och rivningsavfall)", laws: ["byggrivningsavfall"] }
       ]
     },
     {
@@ -232,7 +238,8 @@
         { label: "Energiintensiv anläggning inom EU:s utsläppshandel (EU ETS)", laws: ["utslappsratter"] },
         { label: "Vi levererar drivmedel (bensin, diesel, biodrivmedel)", laws: ["reduktionsplikt", "drivmedelslagen"] },
         { label: "Vi importerar stål, aluminium, cement, gödsel, väte eller el (CBAM)", laws: ["cbam"] },
-        { label: "Stor förbrukning av el eller bränsle (möjlig energiskatteåterbetalning)", laws: ["energiskatt"] }
+        { label: "Stor förbrukning av el eller bränsle (möjlig energiskatteåterbetalning)", laws: ["energiskatt"] },
+        { label: "Vi producerar förnybar el", laws: ["elcertifikat"] }
       ]
     },
     {
