@@ -52,7 +52,9 @@
             "planering-organisering-am",
             "risker-arbetsmiljo",
             "arbetsplatsens-utformning",
-            "arbetstidslagen"
+            "arbetstidslagen",
+            "diskrimineringslagen",
+            "arbetsskadeforsakring"
           ]
         },
         { label: "Nej, inga anställda (t.ex. enmansföretag)", laws: [] }
