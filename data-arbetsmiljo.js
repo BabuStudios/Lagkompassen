@@ -430,6 +430,47 @@ var ARBETSMILJO_LAWS = [
       "För journal över arbets- och vilotid.",
       "Beakta särskilda regler för minderåriga ombord."
     ]
+  },
+  {
+    id: "diskrimineringslagen",
+    title: "Diskrimineringslagen (aktiva åtgärder i arbetslivet)",
+    sfs: "SFS 2008:567",
+    category: "Arbetsmiljö",
+    authority: "Diskrimineringsombudsmannen (DO)",
+    updated: "Senast ändrad 2023",
+    link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/diskrimineringslag-2008567_sfs-2008-567/",
+    summary:
+      "Förbjuder diskriminering och kräver att arbetsgivare arbetar med aktiva åtgärder för att motverka diskriminering och främja lika rättigheter och möjligheter, kopplat till de sju diskrimineringsgrunderna. Överlappar den sociala arbetsmiljön (OSA).",
+    appliesTo: "Alla arbetsgivare (skriftligt dokumentationskrav för arbetsgivare med minst 25 anställda).",
+    keywords: ["diskriminering", "aktiva åtgärder", "likabehandling", "trakasserier", "lönekartläggning", "jämställdhet"],
+    checklist: [
+      "Arbeta löpande med aktiva åtgärder i fyra steg: undersök, analysera, åtgärda och följ upp.",
+      "Omfatta samtliga diskrimineringsgrunder samt arbetsförhållanden, löner, rekrytering och kompetensutveckling.",
+      "Genomför årlig lönekartläggning för att upptäcka osakliga löneskillnader.",
+      "Ta fram riktlinjer och rutiner mot trakasserier, sexuella trakasserier och repressalier.",
+      "Dokumentera arbetet skriftligt vid minst 25 anställda.",
+      "Samverka med arbetstagarna i arbetet med aktiva åtgärder."
+    ]
+  },
+  {
+    id: "arbetsskadeforsakring",
+    title: "Arbetsskadeförsäkring och anmälan av arbetsskada",
+    sfs: "Socialförsäkringsbalken (SFS 2010:110)",
+    category: "Arbetsmiljö",
+    authority: "Försäkringskassan / Arbetsmiljöverket",
+    updated: "Senast ändrad 2024",
+    link: "https://www.forsakringskassan.se/privatperson/sjuk/anstalld/arbetsskada",
+    summary:
+      "Den arbetsbaserade arbetsskadeförsäkringen ger ersättning vid arbetsskada (olycksfall i arbetet, färdolycksfall och arbetssjukdom). Arbetsgivaren är skyldig att anmäla arbetsskador och allvarliga tillbud.",
+    appliesTo: "Alla arbetsgivare med anställda.",
+    keywords: ["arbetsskada", "arbetssjukdom", "olycksfall", "anmälan", "försäkringskassan", "tillbud"],
+    checklist: [
+      "Anmäl arbetsskada till Försäkringskassan, tillsammans med skyddsombudet.",
+      "Anmäl allvarliga olyckor och allvarliga tillbud till Arbetsmiljöverket utan dröjsmål.",
+      "Utred orsaken till skadan eller tillbudet och vidta åtgärder mot upprepning.",
+      "Informera den skadade om möjlig ersättning (även via ev. kollektivavtalad TFA-försäkring).",
+      "Dokumentera skador och tillbud i egenkontrollen."
+    ]
   }
 ];
 
