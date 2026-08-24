@@ -87,7 +87,9 @@
             "miljosanktionsavgifter",
             "miljorapport",
             "miljobedomning-mkb",
-            "provnings-tillsynsavgift"
+            "provnings-tillsynsavgift",
+            "miljotillsynsforordningen",
+            "allvarliga-miljoskador"
           ]
         },
         {
@@ -97,7 +99,8 @@
             "miljoprovningsforordningen",
             "egenkontroll",
             "miljosanktionsavgifter",
-            "provnings-tillsynsavgift"
+            "provnings-tillsynsavgift",
+            "miljotillsynsforordningen"
           ]
         },
         { label: "Nej eller osäker", laws: [] }
@@ -130,7 +133,7 @@
       multi: true,
       options: [
         { label: "Biocider (desinfektion, träskydd, råttgift, båtbottenfärg)", laws: ["biocider"] },
-        { label: "Växtskyddsmedel (odling, golfbana, trädgård)", laws: ["vaxtskyddsmedel"] },
+        { label: "Växtskyddsmedel (odling, golfbana, trädgård)", laws: ["vaxtskyddsmedel", "bekampningsmedelsskatt"] },
         { label: "PFAS, flamskyddsmedel eller andra långlivade ämnen", laws: ["pops"] },
         { label: "Kvicksilver eller kvicksilverhaltiga varor", laws: ["kvicksilver"] }
       ]
@@ -162,8 +165,8 @@
       multi: true,
       options: [
         { label: "Vi äger byggnader byggda eller renoverade 1956–1973", laws: ["pcb"] },
-        { label: "Vi hyr ut, säljer eller har större publika lokaler", laws: ["energideklaration"] },
-        { label: "Vi planerar bygge/verksamhet nära strand eller skyddat naturområde", laws: ["naturvardslagen-strandskydd", "artskyddsforordningen"] },
+        { label: "Vi hyr ut, säljer eller har större publika lokaler", laws: ["energideklaration", "stralskyddslagen", "skydd-mot-olyckor"] },
+        { label: "Vi planerar bygge/verksamhet nära strand eller skyddat naturområde", laws: ["naturvardslagen-strandskydd", "artskyddsforordningen", "omradesskydd-natura2000", "plan-bygglagen", "kulturmiljolagen", "skogsvardslagen"] },
         { label: "Vi utför arbeten i vatten (muddring, brygga, markavvattning, vattenuttag)", laws: ["vattenverksamhet"] },
         { label: "Vi äger eller använder industri-/verksamhetsmark (risk för förorening)", laws: ["fororenade-omraden"] }
       ]
@@ -212,7 +215,7 @@
       multi: true,
       options: [
         { label: "Vi transporterar avfall över landsgräns (export/import)", laws: ["avfallstransport-gransoverskridande"] },
-        { label: "Vi deponerar avfall eller lämnar avfall till deponi", laws: ["deponering"] },
+        { label: "Vi deponerar avfall eller lämnar avfall till deponi", laws: ["deponering", "avfallsskatt"] },
         { label: "Vi förbränner eller samförbränner avfall", laws: ["avfallsforbranning"] },
         { label: "Vi bedriver bygg-, rivnings- eller anläggningsarbete (bygg- och rivningsavfall)", laws: ["byggrivningsavfall"] }
       ]
