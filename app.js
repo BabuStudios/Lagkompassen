@@ -290,7 +290,20 @@
         : `Visar ${filtered.length} av ${base} lagar`;
 
     const frag = document.createDocumentFragment();
-    filtered.forEach((law) => frag.appendChild(buildCard(law)));
+    const groupByCategory = currentSort === "category";
+    let lastCat = null;
+    filtered.forEach((law) => {
+      if (groupByCategory && law.category !== lastCat) {
+        lastCat = law.category;
+        const heading = document.createElement("div");
+        heading.className = "cat-heading";
+        heading.style.cssText =
+          "grid-column:1/-1;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--primary-dark);padding:8px 2px 2px;border-bottom:1px solid var(--border);margin-top:6px";
+        heading.textContent = law.category;
+        frag.appendChild(heading);
+      }
+      frag.appendChild(buildCard(law));
+    });
     listEl.appendChild(frag);
   }
 
