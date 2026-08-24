@@ -109,7 +109,21 @@
     "tvatt-rengoringsmedel": ["Tvätt-/rengöringsmedelstillverkare", "Importörer"],
     godselprodukter: ["Gödseltillverkare", "Importörer", "Lantbrukshandel"],
     "forbud-kemiska-produkter": ["Kemikalieföretag", "Verkstad", "Handel"],
-    "enskilt-avlopp": ["Fastighet på landsbygd", "Verksamhet utan kommunalt VA"]
+    "enskilt-avlopp": ["Fastighet på landsbygd", "Verksamhet utan kommunalt VA"],
+
+    // ---- ISO 14001-komplettering (data-iso-komplettering.js) ----
+    miljotillsynsforordningen: ["Tillstånds-/anmälningspliktiga", "Alla under miljötillsyn"],
+    "plan-bygglagen": ["Bygg & anläggning", "Fastighetsägare", "Exploatörer"],
+    "omradesskydd-natura2000": ["Bygg & anläggning", "Verksamhet i/nära skyddad natur"],
+    skogsvardslagen: ["Skogsbruk", "Skogsägare"],
+    stralskyddslagen: ["Verksamhet med strålkällor", "Arbetsgivare (radon i lokaler)"],
+    "skydd-mot-olyckor": ["Fastighetsägare", "Alla verksamheter med lokaler"],
+    kulturmiljolagen: ["Bygg & anläggning", "Markarbeten", "Exploatörer"],
+    "allvarliga-miljoskador": ["Industri", "Miljöfarlig verksamhet"],
+    avfallsskatt: ["Deponier", "Avfallsverksamhet"],
+    naturgrusskatt: ["Grus- och sandtäkter"],
+    bekampningsmedelsskatt: ["Tillverkare/importörer av bekämpningsmedel"],
+    utvinningsavfall: ["Gruvor & täkter"]
   };
 
   function currentLawId() {
