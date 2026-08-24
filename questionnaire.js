@@ -119,8 +119,8 @@
       help: "Med kemiska produkter menas vardagliga saker som rengöringsmedel, lösningsmedel, färg, lim, oljor och sprayer – sånt som har en innehållsförteckning och ofta varningssymboler på förpackningen. Använder ni bara sådant i verksamheten? Välj det första. Tillverkar, importerar eller säljer ni själva kemiska produkter? Kryssa även i det andra. (Välj det som stämmer.)",
       multi: true,
       options: [
-        { label: "Vi använder kemiska produkter i verksamheten", laws: ["kemikalier-reach", "egenkontroll", "voc-losningsmedel"] },
-        { label: "Vi tillverkar, importerar eller säljer kemiska produkter", laws: ["kemikalier-reach", "clp", "kemiska-produkter-produktregister", "farligt-gods"] }
+        { label: "Vi använder kemiska produkter i verksamheten", laws: ["kemikalier-reach", "egenkontroll", "voc-losningsmedel", "kifs-kemiska-produkter", "forbud-kemiska-produkter"] },
+        { label: "Vi tillverkar, importerar eller säljer kemiska produkter", laws: ["kemikalier-reach", "clp", "kemiska-produkter-produktregister", "farligt-gods", "kifs-kemiska-produkter", "scip-svhc"] }
       ]
     },
     {

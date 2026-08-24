@@ -101,7 +101,15 @@
     "arbetstid-flyg": ["Flygbolag"],
     "vilotid-sjoman": ["Rederier & sjöfart"],
     diskrimineringslagen: ["Alla arbetsgivare"],
-    arbetsskadeforsakring: ["Alla arbetsgivare"]
+    arbetsskadeforsakring: ["Alla arbetsgivare"],
+
+    // ---- Kemikalieinspektionen & ISO 14001-relevant (data-kemi-iso.js) ----
+    "kifs-kemiska-produkter": ["Kemikalieföretag", "Tillverkning", "Importörer", "Bekämpningsmedel"],
+    "scip-svhc": ["Produkttillverkare", "Importörer", "Handel"],
+    "tvatt-rengoringsmedel": ["Tvätt-/rengöringsmedelstillverkare", "Importörer"],
+    godselprodukter: ["Gödseltillverkare", "Importörer", "Lantbrukshandel"],
+    "forbud-kemiska-produkter": ["Kemikalieföretag", "Verkstad", "Handel"],
+    "enskilt-avlopp": ["Fastighet på landsbygd", "Verksamhet utan kommunalt VA"]
   };
 
   function currentLawId() {
