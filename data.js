@@ -102,10 +102,10 @@ const LAWS = [
     sfs: "SFS 2016:1128",
     category: "Köldmedier & utsläpp",
     authority: "Kommunens miljönämnd",
-    updated: "Kompletterar EU 517/2014",
+    updated: "Kompletterar EU 2024/573 (ersatte 517/2014 den 11 mars 2024)",
     link: "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-20161128-om-fluorerade_sfs-2016-1128",
     summary:
-      "Kompletterar EU:s f-gasförordning. Ställer krav på läckagekontroll, certifierad personal och årlig rapportering för aggregat som innehåller köldmedier (t.ex. kyl, frys, värmepump, luftkonditionering).",
+      "Kompletterar EU:s f-gasförordning – sedan 11 mars 2024 gäller nya (EU) 2024/573 som ersatt 517/2014 (skärpta kvoter och utfasning). Ställer krav på läckagekontroll, certifierad personal och årlig rapportering för aggregat som innehåller köldmedier (t.ex. kyl, frys, värmepump, luftkonditionering).",
     appliesTo: "Operatörer av utrustning med fluorerade växthusgaser över vissa mängdgränser (ton CO2e).",
     keywords: ["köldmedier", "f-gas", "läckagekontroll", "köldmedierapport", "certifiering", "CO2-ekvivalenter"],
     checklist: [
@@ -209,19 +209,19 @@ const LAWS = [
     sfs: "SFS 2008:834",
     category: "Producentansvar",
     authority: "Naturvårdsverket",
-    updated: "Kompletteras av EU 2023/1542",
+    updated: "Till stora delar ersatt av förordning 2025:813 (fr.o.m. 18 aug 2025)",
     link: "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-2008834-om-producentansvar-for_sfs-2008-834",
     summary:
-      "Reglerar producenters ansvar för insamling och återvinning av batterier och ackumulatorer, inklusive batterier inbyggda i produkter.",
+      "Reglerar producenters ansvar för insamling och återvinning av batterier. OBS: SFS 2008:834 är till stora delar upphävd (SFS 2025:814) och de svenska kompletterande reglerna finns nu i förordning (2025:813), som tillämpas från 18 augusti 2025. Materiella krav följer av EU:s batteriförordning (EU) 2023/1542.",
     appliesTo: "Företag som yrkesmässigt tillverkar eller för in batterier till Sverige.",
-    keywords: ["batterier", "ackumulatorer", "producentansvar", "insamling", "återvinning"],
+    keywords: ["batterier", "ackumulatorer", "producentansvar", "insamling", "återvinning", "2025:813"],
     checklist: [
-      "Registrera dig i Naturvårdsverkets batteriregister.",
-      "Anslut batterierna till ett godkänt insamlingssystem.",
-      "Märk batterier enligt gällande krav (t.ex. överkryssad soptunna, kemiska symboler).",
+      "Registrera dig i Naturvårdsverkets batteriregister och anslut till en godkänd producentansvarsorganisation.",
+      "Tillämpa de nya svenska reglerna i förordning (2025:813) (gäller från 18 aug 2025).",
+      "Märk batterier enligt (EU) 2023/1542 (överkryssad soptunna, kemiska symboler, ev. QR/batteripass).",
       "Rapportera mängd batterier som satts på marknaden.",
-      "Säkerställ att inbyggda batterier går att avlägsna för återvinning.",
-      "Följ kommande krav i EU:s batteriförordning (batteripass m.m.)."
+      "Säkerställ att inbyggda batterier går att avlägsna och bytas ut för återvinning.",
+      "Följ due diligence- och märkningskrav i EU:s batteriförordning."
     ]
   },
   {
@@ -247,21 +247,21 @@ const LAWS = [
   },
   {
     id: "plastbarkassar",
-    title: "Förordning om plastbärkassar",
-    sfs: "SFS 2016:1041",
+    title: "Plastbärkassar – upphävda särregler (historik)",
+    sfs: "SFS 2016:1041 (upphävd)",
     category: "Plast & produkter",
     authority: "Naturvårdsverket",
-    updated: "Senast ändrad 2020",
+    updated: "UPPHÄVD sedan 1 jan 2022 – inga särskilda krav kvar",
     link: "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/forordning-20161041-om-plastbarkassar_sfs-2016-1041",
     summary:
-      "Ställer krav på att den som tillhandahåller plastbärkassar informerar om deras miljöpåverkan och rapporterar antalet kassar som sätts på marknaden.",
-    appliesTo: "Företag som tillverkar, för in eller tillhandahåller plastbärkassar (t.ex. butiker).",
-    keywords: ["plastbärkassar", "information", "rapportering", "minskad förbrukning"],
+      "OBS: Förordningen (2016:1041) om plastbärkassar är UPPHÄVD sedan 1 januari 2022 (genom SFS 2021:996). De tidigare informations- och rapporteringskraven gäller inte längre. Även den särskilda skatten på plastbärkassar (SFS 2020:32) avskaffades 1 november 2024. Det finns i dag inga särregler enbart för plastbärkassar – kassar hanteras i stället inom det allmänna förpackningsproducentansvaret och reglerna om engångsplast.",
+    appliesTo: "Ingen aktiv skyldighet specifikt för plastbärkassar. Butiker och andra som sätter kassar på marknaden omfattas i stället av producentansvar för förpackningar och engångsplastreglerna.",
+    keywords: ["plastbärkassar", "upphävd", "avskaffad skatt", "förpackningar", "engångsplast", "historik"],
     checklist: [
-      "Informera kunder om plastbärkassars miljöpåverkan och nyttan av minskad förbrukning.",
-      "För den som producerar/för in kassar: rapportera antal till Naturvårdsverket.",
-      "Verka för att minska förbrukningen av tunna plastbärkassar.",
-      "Undvik att tillhandahålla mycket tunna kassar gratis där det inte krävs."
+      "Notera att särreglerna för plastbärkassar är upphävda – ingen separat rapportering till Naturvårdsverket krävs längre.",
+      "Hantera plastbärkassar inom producentansvaret för förpackningar (se den lagen).",
+      "Kontrollera engångsplastreglerna för övriga plastprodukter du tillhandahåller.",
+      "Behöver du historik? Skatten på plastbärkassar upphörde 1 nov 2024."
     ]
   },
   {
@@ -312,15 +312,15 @@ const LAWS = [
     sfs: "SFS 2017:1201",
     category: "Köldmedier & utsläpp",
     authority: "Energimyndigheten",
-    updated: "Senast ändrad 2023",
+    updated: "Senast ändrad 2025 – reduktionsnivån höjd till 10 % från 1 juli 2025",
     link: "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-20171201-om-reduktion-av_sfs-2017-1201",
     summary:
-      "Reduktionsplikten kräver att drivmedelsleverantörer minskar växthusgasutsläppen från bensin och diesel genom inblandning av förnybara drivmedel.",
+      "Reduktionsplikten kräver att drivmedelsleverantörer minskar växthusgasutsläppen från bensin och diesel genom inblandning av förnybara drivmedel. Reduktionsnivån höjdes till 10 % för både bensin och diesel från 1 juli 2025 (SFS 2025:576) och ligger på den nivån till 2030. Tillämpningsregler finns i förordning (2025:589).",
     appliesTo: "Leverantörer av bensin, diesel och annan reduktionspliktig energi.",
-    keywords: ["reduktionsplikt", "drivmedel", "biodrivmedel", "växthusgaser", "inblandning"],
+    keywords: ["reduktionsplikt", "drivmedel", "biodrivmedel", "växthusgaser", "inblandning", "10 procent"],
     checklist: [
       "Avgör om företaget är reduktionspliktig leverantör.",
-      "Beräkna årets reduktionsnivå utifrån levererade volymer.",
+      "Beräkna årets reduktionsnivå (10 % för bensin och diesel från 1 juli 2025) utifrån levererade volymer.",
       "Säkerställ tillräcklig inblandning av förnybara drivmedel.",
       "Säkerställ hållbarhetsbesked för biodrivmedel som tillgodoräknas.",
       "Rapportera till Energimyndigheten enligt fastställda tidsfrister."
@@ -332,14 +332,14 @@ const LAWS = [
     sfs: "SFS 1995:1554, 6 kap.",
     category: "Hållbarhetsrapportering",
     authority: "Bolagsverket / Finansinspektionen",
-    updated: "Genomför CSRD-direktivet",
+    updated: "Genomför CSRD, ändrat genom Omnibus I – ny tröskel >1000 anställda & >450 MEUR, tillämpas från 1 jan 2027",
     link: "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/arsredovisningslag-19951554_sfs-1995-1554",
     summary:
-      "Krav på att större företag upprättar en hållbarhetsrapport som beskriver miljö, sociala förhållanden, personal, mänskliga rättigheter och antikorruption. Utökas successivt genom CSRD och ESRS-standarderna.",
-    appliesTo: "Större företag och företag av allmänt intresse som överskrider tröskelvärden för anställda, omsättning och balansomslutning.",
-    keywords: ["hållbarhetsrapport", "csrd", "esrs", "dubbel väsentlighet", "esg", "redovisning", "scope"],
+      "Krav på att större företag upprättar en hållbarhetsrapport som beskriver miljö, sociala förhållanden, personal, mänskliga rättigheter och antikorruption enligt CSRD och ESRS-standarderna. OBS: EU:s Omnibus I-paket (stop-the-clock (EU) 2025/794 samt ändringsdirektiv antaget 24 feb 2026) har kraftigt höjt tröskeln – kraven träffar nu i huvudsak företag med fler än 1 000 anställda OCH över 450 MEUR i nettoomsättning, och tillämpas för räkenskapsår som börjar 1 januari 2027 eller senare (första rapporter 2028). Många företag som tidigare omfattades faller nu utanför.",
+    appliesTo: "Efter Omnibus i huvudsak företag med fler än 1 000 anställda och över 450 MEUR i omsättning (samt vissa noterade). Kontrollera din storlek mot de nya tröskelvärdena.",
+    keywords: ["hållbarhetsrapport", "csrd", "esrs", "omnibus", "dubbel väsentlighet", "esg", "redovisning", "scope"],
     checklist: [
-      "Avgör om företaget omfattas och från vilket räkenskapsår kraven gäller.",
+      "Avgör om företaget omfattas efter Omnibus (ny tröskel >1000 anställda och >450 MEUR) och från vilket räkenskapsår kraven gäller.",
       "Genomför en dubbel väsentlighetsanalys (påverkan samt finansiell risk).",
       "Identifiera tillämpliga ESRS-standarder och relevanta upplysningskrav.",
       "Samla in data för miljö (klimat, vatten, biologisk mångfald), sociala och styrningsfrågor.",
@@ -354,10 +354,10 @@ const LAWS = [
     sfs: "EU 2020/852",
     category: "Hållbarhetsrapportering",
     authority: "Finansinspektionen",
-    updated: "EU-förordning",
+    updated: "EU-förordning – rapporteringskraven förenklade genom Omnibus (från 1 jan 2026)",
     link: "https://finansinspektionen.se/sv/hallbarhet/regler/taxonomiforordningen/",
     summary:
-      "Klassificeringssystem för miljömässigt hållbara ekonomiska verksamheter. Företag som omfattas redovisar hur stor andel av omsättning, capex och opex som är taxonomiförenlig.",
+      "Klassificeringssystem för miljömässigt hållbara ekonomiska verksamheter. Företag som omfattas redovisar hur stor andel av omsättning, capex och opex som är taxonomiförenlig. Omnibus (delegerad akt 4 juli 2025) har förenklat rapporteringen – bl.a. en väsentlighetströskel på 10 % och betydligt färre datapunkter – och kopplar undantag till CSRD:s nya storleksgränser. Gäller för rapporter från 1 januari 2026.",
     appliesTo: "Företag som omfattas av hållbarhetsrapporteringskraven samt finansmarknadsaktörer.",
     keywords: ["taxonomi", "hållbara investeringar", "capex", "opex", "do no significant harm", "klimat"],
     checklist: [
@@ -498,18 +498,17 @@ const LAWS = [
     sfs: "EU 2023/956",
     category: "Köldmedier & utsläpp",
     authority: "Naturvårdsverket",
-    updated: "Övergångsperiod sedan 2023",
+    updated: "Definitiv regim sedan 1 jan 2026 – de minimis 50 ton/år efter Omnibus",
     link: "https://www.naturvardsverket.se/cbam",
     summary:
-      "EU:s mekanism för koldioxidjustering vid import av vissa varor (t.ex. järn/stål, aluminium, cement, gödsel, väte och el). Importörer rapporterar inbäddade utsläpp och köper successivt CBAM-certifikat.",
-    appliesTo: "Företag som importerar berörda varor till EU.",
-    keywords: ["cbam", "import", "koldioxid", "inbäddade utsläpp", "certifikat", "stål", "aluminium"],
+      "EU:s mekanism för koldioxidjustering vid import av vissa varor (t.ex. järn/stål, aluminium, cement, gödsel, väte och el). Den definitiva regimen gäller sedan 1 januari 2026 (övergångsperioden upphörde 31 dec 2025). Efter Omnibus-förenklingen ((EU) 2025/2083) undantas importörer under 50 ton/kalenderår (utom väte och el) – ca 90 % av importörerna – medan större importörer måste vara auktoriserade CBAM-deklaranter och köpa CBAM-certifikat.",
+    appliesTo: "Företag som importerar berörda varor till EU över tröskeln 50 ton/år (väte och el saknar tröskel).",
+    keywords: ["cbam", "import", "koldioxid", "inbäddade utsläpp", "certifikat", "stål", "aluminium", "de minimis"],
     checklist: [
-      "Kartlägg om importerade varor omfattas av CBAM (KN-nummer).",
-      "Ansök om status som godkänd CBAM-deklarant inför definitiva fasen.",
+      "Kartlägg om importerade varor omfattas av CBAM (KN-nummer) och om du överstiger 50 ton/år.",
+      "Ansök om status som auktoriserad CBAM-deklarant (ansökan senast 31 mars 2026 för den som är över tröskeln).",
       "Samla in data om inbäddade utsläpp från leverantörer utanför EU.",
-      "Lämna kvartalsvisa CBAM-rapporter under övergångsperioden.",
-      "Förbered inköp och överlämning av CBAM-certifikat i definitiva fasen.",
+      "Köp och överlämna CBAM-certifikat enligt den definitiva regimen (sedan 1 jan 2026).",
       "Inför rutin för dokumentation och verifiering av utsläppsdata."
     ]
   },
@@ -638,13 +637,13 @@ const LAWS = [
   {
     id: "avfallstransport-gransoverskridande",
     title: "Gränsöverskridande transport av avfall",
-    sfs: "EU 1013/2006 (ersätts av 2024/1157)",
+    sfs: "EU 2024/1157 (ersatte 1013/2006)",
     category: "Avfall",
     authority: "Naturvårdsverket",
-    updated: "Ny förordning tillämpas successivt",
+    updated: "Nya förordningen (EU) 2024/1157 tillämpas sedan 21 maj 2026",
     link: "https://www.naturvardsverket.se/vagledning-och-stod/avfall/gransoverskridande-transporter-av-avfall/",
     summary:
-      "Reglerar export, import och transitering av avfall mellan länder. Vissa avfallstransporter kräver anmälan och tillstånd (notifiering); export av farligt avfall för bortskaffande är förbjuden inom vissa områden.",
+      "Reglerar export, import och transitering av avfall mellan länder. Den nya avfallstransportförordningen (EU) 2024/1157 har ersatt 1013/2006 och tillämpas sedan 21 maj 2026 (skärpta exportregler till icke-OECD-länder gäller från 21 maj 2027). Vissa avfallstransporter kräver anmälan och tillstånd (notifiering); export av farligt avfall för bortskaffande är förbjuden inom vissa områden.",
     appliesTo: "Företag som transporterar, exporterar eller importerar avfall över landsgränser.",
     keywords: ["avfallstransport", "export", "import", "notifiering", "farligt avfall", "transitering"],
     checklist: [
@@ -764,10 +763,10 @@ const LAWS = [
     sfs: "SFS 2016:1067",
     category: "Skatter & avgifter",
     authority: "Skatteverket",
-    updated: "Senast ändrad 2023",
+    updated: "Gäller fortfarande – skattesatserna höjda från 1 jan 2026",
     link: "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20161067-om-skatt-pa-kemikalier-i-viss_sfs-2016-1067/",
     summary:
-      "Punktskatt på viss elektronik (t.ex. vitvaror och annan elektronik) baserad på vikt, med avdrag för produkter som inte innehåller vissa flamskyddsmedel. Syftar till att minska farliga ämnen i hemmiljön.",
+      "Punktskatt på viss elektronik (t.ex. vitvaror och annan elektronik) baserad på vikt, med avdrag för produkter som inte innehåller vissa flamskyddsmedel. Skatten är INTE avskaffad – tvärtom höjdes skattesatserna från 1 januari 2026 (SFS 2025:884). Syftar till att minska farliga ämnen i hemmiljön.",
     appliesTo: "Företag som tillverkar, för in eller importerar skattepliktig elektronik yrkesmässigt.",
     keywords: ["kemikalieskatt", "elektronik", "flamskyddsmedel", "punktskatt", "vitvaror", "avdrag"],
     checklist: [
@@ -969,7 +968,7 @@ const LAWS = [
     sfs: "EU 2023/1115",
     category: "Leverantörskedja",
     authority: "Skogsstyrelsen / Länsstyrelsen",
-    updated: "Tillämpas 30 dec 2026 (små företag 30 juni 2027)",
+    updated: "Uppskjuten (EU 2025/2650): tillämpas 30 dec 2026 (små företag 30 juni 2027)",
     link: "https://www.skogsstyrelsen.se/lag-och-tillsyn/avskogningsforordningen/",
     summary:
       "Förbjuder att vissa råvaror och produkter som bidragit till avskogning släpps ut på EU-marknaden. Omfattar nötkött, trä, soja, palmolja, kakao, kaffe och gummi samt produkter av dessa. Kräver tillbörlig aktsamhet (due diligence) och geografisk spårbarhet.",

@@ -266,10 +266,10 @@ var MILJO_TILLAGG_LAWS = [
     sfs: "EU 2023/1542",
     category: "Producentansvar",
     authority: "Naturvårdsverket",
-    updated: "Tillämpas successivt från 2024",
+    updated: "Tillämpas successivt – CE-märkning sedan aug 2024, due diligence sedan aug 2025",
     link: "https://www.naturvardsverket.se/vagledning-och-stod/producentansvar/producentansvar-for-batterier/",
     summary:
-      "EU:s nya batteriförordning som successivt ersätter tidigare batteriregler. Inför krav på hållbarhet, koldioxidavtryck, återvunnet innehåll, märkning och digitalt batteripass, samt utökat producentansvar.",
+      "EU:s nya batteriförordning som successivt ersätter tidigare batteriregler (batteridirektivet 2006/66/EG upphävt 18 aug 2025). CE-märkning gäller sedan 18 aug 2024, koldioxidavtryck för elbilsbatterier sedan 18 feb 2025 och due diligence-krav i leverantörskedjan sedan 18 aug 2025. Inför även krav på återvunnet innehåll, märkning och digitalt batteripass samt utökat producentansvar.",
     appliesTo: "Tillverkare, importörer och distributörer av batterier och produkter med batterier.",
     keywords: ["batteriförordning", "batteripass", "återvunnet innehåll", "koldioxidavtryck", "märkning", "producentansvar"],
     checklist: [
@@ -286,14 +286,14 @@ var MILJO_TILLAGG_LAWS = [
     sfs: "EU 2024/1760",
     category: "Hållbarhetsrapportering",
     authority: "EU / kommande svensk tillsynsmyndighet",
-    updated: "Genomförs i svensk rätt successivt",
+    updated: "Efter Omnibus I: transponeras senast 26 juli 2028, tillämpas från 26 juli 2029",
     link: "https://finansinspektionen.se/sv/hallbarhet/",
     summary:
-      "EU-direktiv som kräver att stora företag genomför tillbörlig aktsamhet för mänskliga rättigheter och miljö i sin verksamhet och värdekedja. Införs stegvis och genomförs i svensk lag.",
+      "EU-direktiv som kräver att stora företag genomför tillbörlig aktsamhet för mänskliga rättigheter och miljö i sin verksamhet och värdekedja. Efter Omnibus I ska direktivet transponeras i svensk rätt senast 26 juli 2028 och tillämpas från 26 juli 2029 för alla omfattade företag samtidigt (den tidigare stegvisa infasningen 2027–2029 är slopad).",
     appliesTo: "Mycket stora företag (över vissa tröskelvärden för anställda och omsättning); påverkar även leverantörer.",
-    keywords: ["csddd", "tillbörlig aktsamhet", "due diligence", "värdekedja", "mänskliga rättigheter", "miljö"],
+    keywords: ["csddd", "tillbörlig aktsamhet", "due diligence", "omnibus", "värdekedja", "mänskliga rättigheter", "miljö"],
     checklist: [
-      "Bevaka från vilket år företaget omfattas utifrån storlek.",
+      "Bevaka tidplanen: tillämpning från 26 juli 2029 (transponering senast 26 juli 2028).",
       "Kartlägg faktiska och potentiella negativa effekter i verksamhet och värdekedja.",
       "Inför rutiner för att förebygga, begränsa och åtgärda skador.",
       "Ta fram en klimatomställningsplan där det krävs.",
